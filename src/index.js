@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Form from './Form';
 import Table from './Table';
+import Grid from './Grid';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,5 +13,6 @@ root.render(
     <App />
     <Form />
     <Table />
+    <Grid />
   </React.StrictMode>
 );

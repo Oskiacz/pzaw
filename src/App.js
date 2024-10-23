@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-fasf  
+      <img src='./icons/Icon14_01.png' alt='icon'></img>
     </div>
   );
 }
