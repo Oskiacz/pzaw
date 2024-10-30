@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
-import Form from './Form';
-import Table from './Table';
-import Grid from './Grid';
+import App from './App/App';
+import Form from './Form/Form';
+import Table from './Table/Table';
+import Grid from './Grid/Grid';
+import AxiosExample from './AxiosExample/AxiosExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <AxiosExample />
     <Form />
-    <Table />
+
     <Grid />
   </React.StrictMode>
 );

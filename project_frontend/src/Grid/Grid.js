@@ -1,6 +1,6 @@
-import data from './posts.json'
+import data from '../posts.json'
 import { useState } from 'react';
-import Post from './Post';
+import Post from '../Post/Post';
 import "./Grid.css"
 
 
