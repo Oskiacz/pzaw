@@ -1,0 +1,4 @@
+.form span, .form input {
+    border: 1px black solid;
+    margin: 3px
+}
