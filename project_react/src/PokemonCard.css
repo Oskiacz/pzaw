@@ -1,0 +1,26 @@
+.pokemonCard {
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.image {
+    width:90%;
+    height:90%;
+}
+
+.row {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    border-top: 1px black solid;
+}
+
+.type {
+    border-top:1px black solid;
+}
+
+.stat {
+    margin: 0;
+    border-top: 1px black solid;
+}
